@@ -1,0 +1,10 @@
+Test 1
+  public abstract void D1.m()
+Test 2
+  public abstract void A2.m()
+Test 3
+  public abstract void B3.m()
+  public abstract void C3.m()
+Test 4
+  public abstract void B4.m()
+  public abstract void D4.m()

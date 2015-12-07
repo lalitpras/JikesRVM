@@ -1,0 +1,22 @@
+Prime: Passed
+nextProbablePrime: Passed
+Arithmetic I: Passed
+Arithmetic II: Passed
+divideAndRemainder I: Passed
+pow: Passed
+Bit Count: Passed
+BitLength: Passed
+clearBit/testBit: Passed
+flipBit/testBit: Passed
+getLowestSetBit: Passed
+Logic (^ | & ~): Passed
+Logic (&~ | ~): Passed
+baz shiftLeft: Passed
+baz shiftRight: Passed
+baz shiftLeft/Right: Passed
+Array Conversion: Passed
+Modular Inverse: Passed
+Exponentiation I: Passed
+Exponentiation II: Passed
+String Conversion: Passed
+Serialize: Passed

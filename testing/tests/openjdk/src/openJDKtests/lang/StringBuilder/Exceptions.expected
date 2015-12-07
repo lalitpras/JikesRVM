@@ -1,0 +1,13 @@
+StringBuilder()
+  no args -- OK
+StringBuilder(int length)
+  1 -- OK
+  -1 -- OK
+StringBuilder(String str)
+  null -- OK
+  foo -- OK
+StringBuilder.replace(int start, int end, String str)
+  -1, 2, " " -- OK
+  7, 8, " " -- OK
+  2, 1, " " -- OK
+All tests PASSED

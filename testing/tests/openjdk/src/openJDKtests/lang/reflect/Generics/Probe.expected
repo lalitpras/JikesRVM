@@ -1,0 +1,69 @@
+
+CLASS java.util.concurrent.FutureTask
+  ok
+
+CLASS java.util.concurrent.ConcurrentHashMap$EntryIterator
+  ok
+
+CLASS java.util.concurrent.ConcurrentHashMap$KeyIterator
+  ok
+
+CLASS java.util.concurrent.ConcurrentHashMap$ValueIterator
+  ok
+
+CLASS java.util.AbstractList$ListItr
+  ok
+
+CLASS java.util.EnumMap$EntryIterator
+  ok
+
+CLASS java.util.EnumMap$KeyIterator
+  ok
+
+CLASS java.util.EnumMap$ValueIterator
+  ok
+
+CLASS java.util.IdentityHashMap$EntryIterator
+  ok
+
+CLASS java.util.IdentityHashMap$KeyIterator
+  ok
+
+CLASS java.util.IdentityHashMap$ValueIterator
+  ok
+
+CLASS java.util.WeakHashMap$EntryIterator
+  ok
+
+CLASS java.util.WeakHashMap$KeyIterator
+  ok
+
+CLASS java.util.WeakHashMap$ValueIterator
+  ok
+
+CLASS java.util.TreeMap$EntryIterator
+  ok
+
+CLASS java.util.TreeMap$KeyIterator
+  ok
+
+CLASS java.util.TreeMap$ValueIterator
+  ok
+
+CLASS java.util.HashMap$EntryIterator
+  ok
+
+CLASS java.util.HashMap$KeyIterator
+  ok
+
+CLASS java.util.HashMap$ValueIterator
+  ok
+
+CLASS java.util.LinkedHashMap$EntryIterator
+  ok
+
+CLASS java.util.LinkedHashMap$KeyIterator
+  ok
+
+CLASS java.util.LinkedHashMap$ValueIterator
+  ok

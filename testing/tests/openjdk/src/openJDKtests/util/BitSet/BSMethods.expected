@@ -1,0 +1,17 @@
+SetGetClearFlip             : Passed
+Clear                       : Passed
+Flip                        : Passed
+Set                         : Passed
+Get                         : Passed
+AndNot                      : Passed
+And                         : Passed
+Or                          : Passed
+Xor                         : Passed
+Length                      : Passed
+Equals                      : Passed
+NextSetBit                  : Passed
+NextClearBit                : Passed
+Intersects                  : Passed
+Cardinality                 : Passed
+Empty                       : Passed
+Logical Identities          : Passed
