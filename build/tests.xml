@@ -632,6 +632,7 @@
     <attribute name="rvmArgs" default=""/>
     <attribute name="timeLimit" default=""/>
     <attribute name="exitCode" default="0"/>
+    <attribute name="expecteddir" default="${main.java}"/>
     <sequential>
       <rvm tag="@{tag}"
            class="@{class}"
@@ -650,7 +651,7 @@
 
       <diffCompareFiles tag="@{tag}"
    	   					execution="@{execution}"
-                       	expected="${main.java}/${test.@{tag}.expected.output.file}.expected"
+                       	expected="@{expecteddir}/${test.@{tag}.expected.output.file}.expected"
                         actual="${test.@{tag}.default.sanitized.output.file}"/>
 
       <outputResults tag="@{tag}"/>
