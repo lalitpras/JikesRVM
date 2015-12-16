@@ -1,0 +1,109 @@
+<!--
+ ~  This file is part of the Jikes RVM project (http://jikesrvm.org).
+ ~
+ ~  This file is licensed to You under the Eclipse Public License (EPL);
+ ~  You may not use this file except in compliance with the License. You
+ ~  may obtain a copy of the License at
+ ~
+ ~      http://www.opensource.org/licenses/eclipse-1.0.php
+ ~
+ ~  See the COPYRIGHT.txt file distributed with this work for information
+ ~  regarding copyright ownership.
+ -->
+
+<project name="openjdk" default="build" basedir=".">
+
+	<import file="base.xml"/>
+
+	<property name="openjdk.version" value="1.0"/>
+	<property name="openjdk.description" value="OpenJDK Testing Suite"/>
+
+	<property name="openjdk.dir" location="${components.dir}/openjdk/${openjdk.version}"/>
+
+  <!-- **************************************************************************** -->
+  <!-- *                                                                          * -->
+  <!-- *               Downloading and installing OpenJDK Benchmarks              * -->
+  <!-- *                                                                          * -->
+  <!-- **************************************************************************** -->
+
+<macrodef name = "git">
+    <attribute name = "command" />
+    <attribute name = "dir" default = "" />
+    <element name = "args" optional = "true" />
+    <sequential>
+        <echo message = "git @{command}" />
+        <exec executable = "git" dir = "@{dir}">
+            <arg value = "@{command}" />
+            <args/>
+        </exec>
+    </sequential>
+</macrodef>
+
+<macrodef name = "git-clone-pull">
+    <attribute name = "repository" />
+    <attribute name = "dest" />
+    <sequential>
+        <git command = "clone">
+            <args>
+                <arg value = "@{repository}" />
+                <arg value = "@{dest}" />
+            </args>
+        </git>
+        <git command = "pull" dir = "@{dest}" />
+    </sequential>
+</macrodef>
+
+	<target name="init-openjdk-properties" depends="prepare-ant-tasks">
+	  <condition property="openjdk.from-web" value="true">
+	    <or>
+	      <not>
+		<available file="${openjdk.dir}/openjdk.jar"/>
+	      </not>
+	      <isset property="openjdk.force-download"/>
+	    </or>
+	  </condition>
+	</target>
+
+	<target name="fetch" depends="init-openjdk-properties" if="openjdk.from-web">
+		<mkdir dir="${openjdk.dir}"/>
+		<git command = "clone">
+			<args>
+				<arg value="https://github.com/lalitpras/OpenJDKJAR.git"/>
+				<arg value="${openjdk.dir}/openjdk.jar"/>
+			</args>
+		</git>
+	</target>
+
+
+<!--
+~This is an attempt to mimick the usage in dacapo.xml
+	<target name="fetch" depends="init-openjdk-properties" if="openjdk.from-web">
+		<mkdir dir="${openjdk.dir}"/>
+		<cachedGet key="OpenJDKTests_openjdk6.jar"
+			src="https://github.com/lalitpras/OpenJDKTesting/blob/master/Jikes/testing/tests/openjdk/OpenJDKTests_openjdk6.jar"
+			dest="${openjdk.dir}/openjdk.jar"/>
+		<writeComponentConstants dir="${openjdk.dir}"/>
+	</target>
+-->
+
+<!--
+~This is an attempt to mimick the usage in classpath.xml
+	<target name="fetch" depends="init-openjdk-properties" if="openjdk.from-web">
+		<test-file name="git.exe" location="${host.file}"/>
+		<mkdir dir="${openjdk.dir}"/>
+		<exec executable="${git.exe}" failonerror="true" dir="${openjdk.dir}">
+			<arg value="clone"/>
+			<arg value="https://github.com/lalitpras/OpenJDKTesting/blob/master/Jikes/testing/tests/openjdk/OpenJDKTests_openjdk6.jar"/>
+		</exec>
+	</target>
+-->
+
+
+	<target name="build" depends="fetch">
+	</target>
+
+	<target name="ensure" depends="prepare-ant-tasks">
+		<ensureUptodate name="openjdk" dir="${openjdk.dir}"/>
+	</target>
+
+</project>	

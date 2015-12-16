@@ -278,16 +278,6 @@
         <ant antfile="build/components/classpath.xml" target="ensure"/>
       </sequential>
     </if>
-<!--
-    <if>
-      <conditions>
-        <equals arg1="${classlib.provider}" arg2="Openjdk"/>
-      </conditions>
-      <sequential>
-        <ant antfile="build/components/openjdk.xml" target="ensure"/>
-      </sequential>
-    </if>
--->
     <if>
       <conditions>
         <equals arg1="${classlib.provider}" arg2="Harmony"/>
@@ -332,8 +322,6 @@
     <ant antfile="build/components/junit.xml" target="ensure"/>
     <ant antfile="build/components/hamcrest.xml" target="ensure"/>
     <ant antfile="build/components/mockito.xml" target="ensure"/>
-    <ant antfile="build/components/openjdk.xml" target="ensure"/>
-    <ant antfile="build/components/dacapo.xml" target="ensure"/>
     <property file="${components.file}"/>
   </target>
 
@@ -1274,9 +1262,7 @@ Check to make sure all required properties are specified. This includes properti
     </if>
   </target>
 
-<!--  <target name="compile" depends="compile-mmtk,compile-options,prepare-source,prepare-config-source,choose-classlib,do-checkstyle"> -->
-
-<target name="compile" depends="compile-mmtk,compile-options,prepare-source,prepare-config-source,choose-classlib">
+  <target name="compile" depends="compile-mmtk,compile-options,prepare-source,prepare-config-source,choose-classlib,do-checkstyle">
 
     <condition property="exclude-arch" value="IA" else="PPC">
       <equals arg1="${target.arch}" arg2="ppc"/>

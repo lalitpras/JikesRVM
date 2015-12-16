@@ -56,6 +56,9 @@
 
 <!-- had some issues getting this one to compile, so I've deleted it -->
 		<mkdir dir="${build.classes}/openJDKtests/lang/Class/getEnclosingConstructor" />
+<!--
+		<javac srcdir="${main.java}/openJDKtests/lang/Class/getEnclosingConstructor" destdir="${build.classes}/openJDKtests/lang/Class/getEnclosingConstructor" debug="true" source="1.6" target="1.6" includeantruntime="false" includes="*.java"/>
+-->
 
 		<mkdir dir="${build.classes}/openJDKtests/lang/Class/getEnclosingMethod" />
 		<javac srcdir="${main.java}/openJDKtests/lang/Class/getEnclosingMethod" destdir="${build.classes}/openJDKtests/lang/Class/getEnclosingMethod" debug="true" source="1.6" target="1.6" includeantruntime="false" includes="*.java"/>
