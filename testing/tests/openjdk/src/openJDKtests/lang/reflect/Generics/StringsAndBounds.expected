@@ -2,6 +2,10 @@
 
 Scanning StringsAndBounds
 
+Method:	static void StringsAndBounds.scanner(java.lang.Class)
+	Return Type: void
+	Parameter: class java.lang.Class
+
 Method:	public static void StringsAndBounds.main(java.lang.String[]) throws java.lang.Exception
 	Return Type: void
 	Parameter: class [Ljava.lang.String;
@@ -13,10 +17,6 @@ Method:	public void StringsAndBounds.f(A$B)
 Method:	public void StringsAndBounds.g(java.lang.Object)
 	Return Type: void
 	Parameter: T
-
-Method:	static void StringsAndBounds.scanner(java.lang.Class)
-	Return Type: void
-	Parameter: class java.lang.Class
 
 
 Scanning A$B
@@ -38,10 +38,10 @@ Method:	void Test$Inner1.bar(java.lang.Object[])
 	Return Type: void
 	Parameter: U[]
 
-Method:	static java.lang.Object Test.max(java.util.Collection)
-	Return Type: S
-	Parameter: java.util.Collection<? extends S>
-
 Method:	java.util.List Test.foo(java.util.List)
 	Return Type: java.util.List<? extends T>
 	Parameter: java.util.List<? super T>
+
+Method:	static java.lang.Object Test.max(java.util.Collection)
+	Return Type: S
+	Parameter: java.util.Collection<? extends S>
