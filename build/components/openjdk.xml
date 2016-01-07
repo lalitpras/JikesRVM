@@ -69,7 +69,7 @@
 		<git command = "clone">
 			<args>
 				<arg value="https://github.com/lalitpras/OpenJDKJAR.git"/>
-				<arg value="${openjdk.dir}/openjdk.jar"/>
+				<arg value="${openjdk.dir}"/>
 			</args>
 		</git>
 	</target>
