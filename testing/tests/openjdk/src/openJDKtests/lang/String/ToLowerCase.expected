@@ -1,4 +1,0 @@
-input: İ, locale: en_US, expected: i, actual: i̇
-Exception in thread "main" java.lang.RuntimeException
-	at ToLowerCase.test(ToLowerCase.java:113)
-	at ToLowerCase.main(ToLowerCase.java:75)

@@ -1,3 +1,0 @@
-Exception in thread "main" java.lang.RuntimeException: Illegal leading plus
-	at Decode.checkFailure(Decode.java:58)
-	at Decode.main(Decode.java:72)

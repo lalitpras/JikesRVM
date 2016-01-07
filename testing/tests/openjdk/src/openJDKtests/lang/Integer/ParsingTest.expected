@@ -1,4 +1,0 @@
-parseInt(+100) incorrectly returned 100
-Exception in thread "main" java.lang.RuntimeException
-	at ParsingTest.checkFailure(ParsingTest.java:89)
-	at ParsingTest.main(ParsingTest.java:50)
