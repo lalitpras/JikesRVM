@@ -24,9 +24,9 @@
 
 
 	<macrodef name="hotspotTest" description="runs class on Hotspot and places output in `expected` folder">
-		<attribute name="classname"/>
-		<attribute name="package"/>
-		<attribute name="outdir"/>
+		<attribute name="classname"/>	<!-- the name of the class, without packages -->
+		<attribute name="package"/>	<!-- the fully qualified classpath, excluding the classname -->
+		<attribute name="outdir"/>	<!-- where the .expected file will be created; should correspond to @{package} -->
 		<sequential>
 			<echo message="Running @{classname} on Hotspot"/>
 			<mkdir dir="@{outdir}"/>
@@ -45,20 +45,7 @@
 
 <target name="test" depends="init">
 
-<!--
-	<mkdir dir="${expected.dir}/util/IllegalFormatException"/>
-	<mkdir dir="${expected.dir}/util/WeakHashMap"/>
-	<mkdir dir="${expected.dir}/util/Currency"/>
--->
-
-<!--
-	<hotspotTest classname="Constructors" package="openJDKtests.util.IllegalFormatException" outdir="${expected.dir}/util/IllegalFormatException"/>
-	<hotspotTest classname="Basic" package="openJDKtests.util.LinkedHashMap" outdir="${expected.dir}/util/LinkedHashMap"/>
-	<hotspotTest classname="ZeroInitCap" package="openJDKtests.util.WeakHashMap" outdir="${expected.dir}/util/WeakHashMap"/>
-	<hotspotTest classname="Bug4512215" package="openJDKtests.util.Currency" outdir="${expected.dir}/util/Currency"/>
--->
-
-
+	<!-- running the tests with HotSpot -->
 
 <hotspotTest classname="StackTraceSerialization" package="openJDKtests.lang.Throwable" outdir="${expected.dir}/lang/Throwable"/>
 <hotspotTest classname="LocalizedMessage" package="openJDKtests.lang.Throwable" outdir="${expected.dir}/lang/Throwable"/>
@@ -310,28 +297,9 @@
 <hotspotTest classname="LastIndexOf" package="openJDKtests.util.Vector" outdir="${expected.dir}/util/Vector"/>
 
 
-<!--
-	<echo message="Running openJDKtests/util/IllegalFormatException/Constructors.java on Hotspot"/>
-	<mkdir dir="${expected.dir}/util/IllegalFormatException"/>
-	<java classname="openJDKtests.util.IllegalFormatException.Constructors" output="${expected.dir}/util/IllegalFormatException/Constructors.expected" fork="true">
-		<classpath>
-			<pathelement location="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-		</classpath>
-	</java>
-
--->
 	<!-- Comparison -->
-<!--
-	<startResults/>
-		<runCompareTest tag="Constructors" class="openJDKtests.util.IllegalFormatException.Constructors" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-		<runCompareTest tag="Basic" class="openJDKtests.util.LinkedHashMap.Basic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-		<runCompareTest tag="ZeroInitCap" class="openJDKtests.util.WeakHashMap.ZeroInitCap" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-		<runCompareTest tag="Bug4512215" class="openJDKtests.util.Currency.Bug4512215" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>	
-	<finishResults/>
--->
 
 	<startResults/>
-
 <runCompareTest tag="StackTraceSerialization" class="openJDKtests.lang.Throwable.StackTraceSerialization" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="LocalizedMessage" class="openJDKtests.lang.Throwable.LocalizedMessage" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="LegacyChainedExceptionSerialization" class="openJDKtests.lang.Throwable.LegacyChainedExceptionSerialization" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
