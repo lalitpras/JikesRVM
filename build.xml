@@ -278,16 +278,6 @@
         <ant antfile="build/components/classpath.xml" target="ensure"/>
       </sequential>
     </if>
-<!--
-    <if>
-      <conditions>
-        <equals arg1="${classlib.provider}" arg2="Openjdk"/>
-      </conditions>
-      <sequential>
-        <ant antfile="build/components/openjdk.xml" target="ensure"/>
-      </sequential>
-    </if>
--->
     <if>
       <conditions>
         <equals arg1="${classlib.provider}" arg2="Harmony"/>
