@@ -440,7 +440,7 @@
 <runCompareTest tag="ContentEquals" class="openJDKtests.lang.String.ContentEquals" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="IndexOfEmptyInEmpty" class="openJDKtests.lang.String.IndexOfEmptyInEmpty" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="NullQueue" class="openJDKtests.lang.ref.NullQueue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Bash" class="openJDKtests.lang.ref.SoftReference" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Bash" class="openJDKtests.lang.ref.SoftReference.Bash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="EnqueueNullRef" class="openJDKtests.lang.ref.EnqueueNullRef" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="Insert" class="openJDKtests.lang.StringBuilder.Insert" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="Exceptions" class="openJDKtests.lang.StringBuilder.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
