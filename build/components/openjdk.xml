@@ -14,10 +14,7 @@
 <project name="openjdk" default="build" basedir=".">
 
 	<import file="base.xml"/>
-
-	<property name="openjdk.version" value="1.0"/>
 	<property name="openjdk.description" value="OpenJDK Testing Suite"/>
-
 	<property name="openjdk.dir" location="${components.dir}/openjdk"/>
 
   <!-- **************************************************************************** -->
