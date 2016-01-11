@@ -111,8 +111,8 @@
 <hotspotTest classname="ClassRestrictions" package="openJDKtests.lang.reflect.Proxy" outdir="${expected.dir}/lang/reflect/Proxy"/>
 <hotspotTest classname="Test" package="openJDKtests.lang.reflect.Proxy.returnTypes" outdir="${expected.dir}/lang/reflect/Proxy/returnTypes"/>
 <hotspotTest classname="InheritedInterfaceMethods" package="openJDKtests.lang.reflect.Method" outdir="${expected.dir}/lang/reflect/Method"/>
-<hotspotTest classname="ErrorInInvoke" package="openJDKtests.lang.reflect.Method.Invoke" outdir="${expected.dir}/lang/reflect/Method/Invoke"/>
-<hotspotTest classname="IllegalAccessInInvoke" package="openJDKtests.lang.reflect.Method.Invoke" outdir="${expected.dir}/lang/reflect/Method/Invoke"/>
+<hotspotTest classname="ErrorInInvoke" package="openJDKtests.lang.reflect.Method.invoke" outdir="${expected.dir}/lang/reflect/Method/invoke"/>
+<hotspotTest classname="IllegalAccessInInvoke" package="openJDKtests.lang.reflect.Method.invoke" outdir="${expected.dir}/lang/reflect/Method/invoke"/>
 <hotspotTest classname="Decode" package="openJDKtests.lang.Byte" outdir="${expected.dir}/lang/Byte"/>
 <hotspotTest classname="PublicConstructor" package="openJDKtests.lang.StackTraceElement" outdir="${expected.dir}/lang/StackTraceElement"/>
 <hotspotTest classname="Cause" package="openJDKtests.lang.AssertionError" outdir="${expected.dir}/lang/AssertionError"/>
@@ -383,8 +383,8 @@
 <runCompareTest tag="ClassRestrictions" class="openJDKtests.lang.reflect.Proxy.ClassRestrictions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="Test" class="openJDKtests.lang.reflect.Proxy.returnTypes.Test" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="InheritedInterfaceMethods" class="openJDKtests.lang.reflect.Method.InheritedInterfaceMethods" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ErrorInInvoke" class="openJDKtests.lang.reflect.Method.Invoke.ErrorInInvoke" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IllegalAccessInInvoke" class="openJDKtests.lang.reflect.Method.Invoke.IllegalAccessInInvoke" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ErrorInInvoke" class="openJDKtests.lang.reflect.Method.invoke.ErrorInInvoke" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IllegalAccessInInvoke" class="openJDKtests.lang.reflect.Method.invoke.IllegalAccessInInvoke" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="Decode" class="openJDKtests.lang.Byte.Decode" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="PublicConstructor" class="openJDKtests.lang.StackTraceElement.PublicConstructor" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="Cause" class="openJDKtests.lang.AssertionError.Cause" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
