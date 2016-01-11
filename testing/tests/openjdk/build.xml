@@ -580,9 +580,6 @@
 <runCompareTest tag="SyncLastIndexOf" class="openJDKtests.util.Vector.SyncLastIndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="ComodifiedRemoveAllElements" class="openJDKtests.util.Vector.ComodifiedRemoveAllElements" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="LastIndexOf" class="openJDKtests.util.Vector.LastIndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IllegalConstructorArgs" class="openJDKtests.util.Vector.IllegalConstructorArgs" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="LastIndexOf" class="openJDKtests.util.Vector.LastIndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SyncLastIndexOf" class="openJDKtests.util.Vector.SyncLastIndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <finishResults/>
 
 </target>
