@@ -28,7 +28,7 @@
 		<attribute name="package"/>	<!-- the fully qualified classpath, excluding the classname -->
 		<attribute name="outdir"/>	<!-- where the .expected file will be created; should correspond to @{package} -->
 		<sequential>
-			<echo message="Running @{classname} on Hotspot"/>
+		<!--	<echo message="Running @{package}.@{classname} on Hotspot"/>	-->
 			<mkdir dir="@{outdir}"/>
 			<java classname="@{package}.@{classname}"
 				output="@{outdir}/@{classname}.expected"
