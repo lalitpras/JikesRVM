@@ -1264,9 +1264,7 @@ Check to make sure all required properties are specified. This includes properti
     </if>
   </target>
 
-<!--  <target name="compile" depends="compile-mmtk,compile-options,prepare-source,prepare-config-source,choose-classlib,do-checkstyle"> -->
-
-<target name="compile" depends="compile-mmtk,compile-options,prepare-source,prepare-config-source,choose-classlib">
+  <target name="compile" depends="compile-mmtk,compile-options,prepare-source,prepare-config-source,choose-classlib,do-checkstyle">
 
     <condition property="exclude-arch" value="IA" else="PPC">
       <equals arg1="${target.arch}" arg2="ppc"/>
