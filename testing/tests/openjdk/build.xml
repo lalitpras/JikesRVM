@@ -300,254 +300,254 @@
 	<!-- Comparison -->
 
 	<startResults/>
-<runCompareTest tag="StackTraceSerialization" class="openJDKtests.lang.Throwable.StackTraceSerialization" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="LocalizedMessage" class="openJDKtests.lang.Throwable.LocalizedMessage" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="LegacyChainedExceptionSerialization" class="openJDKtests.lang.Throwable.LegacyChainedExceptionSerialization" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ChainedExceptions" class="openJDKtests.lang.Throwable.ChainedExceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NewChainedExceptions" class="openJDKtests.lang.Throwable.NewChainedExceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ParseFloat" class="openJDKtests.lang.Float.ParseFloat" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Extrema" class="openJDKtests.lang.Float.Extrema" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Constants" class="openJDKtests.lang.Float.Constants" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NaNInfinityParsing" class="openJDKtests.lang.Float.NaNInfinityParsing" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TestThreadId" class="openJDKtests.lang.ThreadLocal.TestThreadId" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="MemoryLeak" class="openJDKtests.lang.ThreadLocal.MemoryLeak" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Basic" class="openJDKtests.lang.ThreadLocal.Basic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="InitialValue" class="openJDKtests.lang.ThreadLocal.InitialValue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ThreadId" class="openJDKtests.lang.ThreadLocal.ThreadId" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TLRemoveTest" class="openJDKtests.lang.ThreadLocal.TLRemoveTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BitTwiddle" class="openJDKtests.lang.Integer.BitTwiddle" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ParsingTest" class="openJDKtests.lang.Integer.ParsingTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="GetInteger" class="openJDKtests.lang.Integer.GetInteger" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Decode" class="openJDKtests.lang.Integer.Decode" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ByteSwap" class="openJDKtests.lang.Short.ByteSwap" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Decode" class="openJDKtests.lang.Short.Decode" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="GetLong" class="openJDKtests.lang.Long.GetLong" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BitTwiddle" class="openJDKtests.lang.Long.BitTwiddle" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ParsingTest" class="openJDKtests.lang.Long.ParsingTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Decode" class="openJDKtests.lang.Long.Decode" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Expm1Tests" class="openJDKtests.lang.StrictMath.Expm1Tests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Tests" class="openJDKtests.lang.StrictMath.Tests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CubeRootTests" class="openJDKtests.lang.StrictMath.CubeRootTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Log10Tests" class="openJDKtests.lang.StrictMath.Log10Tests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Log1pTests" class="openJDKtests.lang.StrictMath.Log1pTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="HyperbolicTests" class="openJDKtests.lang.StrictMath.HyperbolicTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="HypotTests" class="openJDKtests.lang.StrictMath.HypotTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ExceedMaxDim" class="openJDKtests.lang.reflect.Array.ExceedMaxDim" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TestParameterAnnotations" class="openJDKtests.lang.reflect.Constructor.TestParameterAnnotations" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Set" class="openJDKtests.lang.reflect.Field.Set" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StaticFieldTest" class="openJDKtests.lang.reflect.Field.eightsixfour.StaticFieldTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="toStringTest" class="openJDKtests.lang.reflect.Modifier.toStringTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ArrayAssignment" class="openJDKtests.lang.reflect.Assignment.ArrayAssignment" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="exceptionCauseTest" class="openJDKtests.lang.reflect.Generics.exceptionCauseTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="getAnnotationTest" class="openJDKtests.lang.reflect.Generics.getAnnotationTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Probe" class="openJDKtests.lang.reflect.Generics.Probe" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StringsAndBounds" class="openJDKtests.lang.reflect.Generics.StringsAndBounds" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TestC1" class="openJDKtests.lang.reflect.Generics.TestC1" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TestC2" class="openJDKtests.lang.reflect.Generics.TestC2" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TestN1" class="openJDKtests.lang.reflect.Generics.TestN1" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="TestParameterizedType" class="openJDKtests.lang.reflect.Generics.TestParameterizedType" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Boxing" class="openJDKtests.lang.reflect.Proxy.Boxing" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CharType" class="openJDKtests.lang.reflect.Proxy.CharType" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ClassRestrictions" class="openJDKtests.lang.reflect.Proxy.ClassRestrictions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Test" class="openJDKtests.lang.reflect.Proxy.returnTypes.Test" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="InheritedInterfaceMethods" class="openJDKtests.lang.reflect.Method.InheritedInterfaceMethods" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ErrorInInvoke" class="openJDKtests.lang.reflect.Method.invoke.ErrorInInvoke" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IllegalAccessInInvoke" class="openJDKtests.lang.reflect.Method.invoke.IllegalAccessInInvoke" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Decode" class="openJDKtests.lang.Byte.Decode" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="PublicConstructor" class="openJDKtests.lang.StackTraceElement.PublicConstructor" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Cause" class="openJDKtests.lang.AssertionError.Cause" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Cast" class="openJDKtests.lang.Class.Cast" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IsSynthetic" class="openJDKtests.lang.Class.IsSynthetic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IsAnnotationType" class="openJDKtests.lang.Class.IsAnnotationType" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Sanity" class="openJDKtests.lang.Class.getClasses.Sanity" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EnclosingConstructorTests" class="openJDKtests.lang.Class.getEnclosingConstructor.EnclosingConstructorTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getMethod.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NullInParamList" class="openJDKtests.lang.Class.getMethod.NullInParamList" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ForInnerClass" class="openJDKtests.lang.Class.getModifiers.ForInnerClass" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ForStaticInnerClass" class="openJDKtests.lang.Class.getModifiers.ForStaticInnerClass" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ResolveFrom" class="openJDKtests.lang.Class.getModifiers.ResolveFrom" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StripACC_SUPER" class="openJDKtests.lang.Class.getModifiers.StripACC_SUPER" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Sanity" class="openJDKtests.lang.Class.getDeclaredClasses.Sanity" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EnclosingMethodTests" class="openJDKtests.lang.Class.getEnclosingMethod.EnclosingMethodTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Sanity" class="openJDKtests.lang.Class.getDeclaringClass.Sanity" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getDeclaredMethod.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getDeclaredField.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NonPublicStaticInitializer" class="openJDKtests.lang.Class.getMethods.NonPublicStaticInitializer" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StarInheritance" class="openJDKtests.lang.Class.getMethods.StarInheritance" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getField.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Replace" class="openJDKtests.lang.StringBuffer.Replace" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AppendCharSequence" class="openJDKtests.lang.StringBuffer.AppendCharSequence" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="GetCharsSrcEndLarger" class="openJDKtests.lang.StringBuffer.GetCharsSrcEndLarger" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Substring" class="openJDKtests.lang.StringBuffer.Substring" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="InsertNullString" class="openJDKtests.lang.StringBuffer.InsertNullString" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Exceptions" class="openJDKtests.lang.StringBuffer.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SetLength" class="openJDKtests.lang.StringBuffer.SetLength" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AppendSB" class="openJDKtests.lang.StringBuffer.AppendSB" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="InsertMaxValue" class="openJDKtests.lang.StringBuffer.InsertMaxValue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SBBasher" class="openJDKtests.lang.StringBuffer.SBBasher" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Supplementary" class="openJDKtests.lang.StringBuffer.Supplementary" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IndexOf" class="openJDKtests.lang.StringBuffer.IndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="GetCharsOverLength" class="openJDKtests.lang.StringBuffer.GetCharsOverLength" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Trim" class="openJDKtests.lang.StringBuffer.Trim" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Extrema" class="openJDKtests.lang.Double.Extrema" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Constants" class="openJDKtests.lang.Double.Constants" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NaNInfinityParsing" class="openJDKtests.lang.Double.NaNInfinityParsing" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NonCharacterMapping" class="openJDKtests.lang.String.NonCharacterMapping" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CaseConvertSameInstance" class="openJDKtests.lang.String.CaseConvertSameInstance" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SBConstructor" class="openJDKtests.lang.String.SBConstructor" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ICCBasher" class="openJDKtests.lang.String.ICCBasher" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToLowerCase" class="openJDKtests.lang.String.ToLowerCase" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IsEmpty" class="openJDKtests.lang.String.IsEmpty" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToUpperCase" class="openJDKtests.lang.String.ToUpperCase" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Regex" class="openJDKtests.lang.String.Regex" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Encodings" class="openJDKtests.lang.String.Encodings" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Supplementary" class="openJDKtests.lang.String.Supplementary" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CompareIC" class="openJDKtests.lang.String.CompareIC" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="RegionMatches" class="openJDKtests.lang.String.RegionMatches" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Split" class="openJDKtests.lang.String.Split" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ContentEquals" class="openJDKtests.lang.String.ContentEquals" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IndexOfEmptyInEmpty" class="openJDKtests.lang.String.IndexOfEmptyInEmpty" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NullQueue" class="openJDKtests.lang.ref.NullQueue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Bash" class="openJDKtests.lang.ref.SoftReference.Bash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EnqueueNullRef" class="openJDKtests.lang.ref.EnqueueNullRef" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Insert" class="openJDKtests.lang.StringBuilder.Insert" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Exceptions" class="openJDKtests.lang.StringBuilder.Exceptions" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Supplementary" class="openJDKtests.lang.StringBuilder.Supplementary" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ITLRemoveTest" class="openJDKtests.lang.InheritableThreadLocal.ITLRemoveTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Basic" class="openJDKtests.lang.InheritableThreadLocal.Basic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ParseBoolean" class="openJDKtests.lang.Boolean.ParseBoolean" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Factory" class="openJDKtests.lang.Boolean.Factory" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="MakeBooleanComparable" class="openJDKtests.lang.Boolean.MakeBooleanComparable" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="GetBoolean" class="openJDKtests.lang.Boolean.GetBoolean" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SetMaxPriority" class="openJDKtests.lang.ThreadGroup.SetMaxPriority" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Stop" class="openJDKtests.lang.ThreadGroup.Stop" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Daemon" class="openJDKtests.lang.ThreadGroup.Daemon" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Basic" class="openJDKtests.lang.Appendable.Basic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="RoundingModeTests" class="openJDKtests.math.RoundingMode.RoundingModeTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NegateTests" class="openJDKtests.math.BigDecimal.NegateTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StrippingZerosTest" class="openJDKtests.math.BigDecimal.StrippingZerosTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="DivideTests" class="openJDKtests.math.BigDecimal.DivideTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ZeroScalingTests" class="openJDKtests.math.BigDecimal.ZeroScalingTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AddTests" class="openJDKtests.math.BigDecimal.AddTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="RoundingTests" class="openJDKtests.math.BigDecimal.RoundingTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IntegralDivisionTests" class="openJDKtests.math.BigDecimal.IntegralDivisionTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CompareToTests" class="openJDKtests.math.BigDecimal.CompareToTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="MultiplyTests" class="openJDKtests.math.BigDecimal.MultiplyTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Constructor" class="openJDKtests.math.BigDecimal.Constructor" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ScaleByPowerOfTenTests" class="openJDKtests.math.BigDecimal.ScaleByPowerOfTenTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SerializationTests" class="openJDKtests.math.BigDecimal.SerializationTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="PowTests" class="openJDKtests.math.BigDecimal.PowTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="FloatDoubleValueTests" class="openJDKtests.math.BigDecimal.FloatDoubleValueTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToPlainStringTests" class="openJDKtests.math.BigDecimal.ToPlainStringTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ProbablePrime" class="openJDKtests.math.BigInteger.ProbablePrime" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ModPow" class="openJDKtests.math.BigInteger.ModPow" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="OperatorNpeTests" class="openJDKtests.math.BigInteger.OperatorNpeTests" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BigIntegerTest" class="openJDKtests.math.BigInteger.BigIntegerTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="UnicodeConstructor" class="openJDKtests.math.BigInteger.UnicodeConstructor" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Constructors" class="openJDKtests.util.IllegalFormatException.Constructors" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Basic" class="openJDKtests.util.LinkedHashMap.Basic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Cache" class="openJDKtests.util.LinkedHashMap.Cache" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EmptyMapIterator" class="openJDKtests.util.LinkedHashMap.EmptyMapIterator" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Bug4512215" class="openJDKtests.util.Currency.Bug4512215" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IteratorAtEnd" class="openJDKtests.util.Collection.IteratorAtEnd" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BiggernYours" class="openJDKtests.util.Collection.BiggernYours" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="RemoveContains" class="openJDKtests.util.PriorityQueue.RemoveContains" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ForgetMeNot" class="openJDKtests.util.PriorityQueue.ForgetMeNot" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="PriorityQueueSort" class="openJDKtests.util.PriorityQueue.PriorityQueueSort" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Basic" class="openJDKtests.util.LinkedHashSet.Basic" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ListTimeZones" class="openJDKtests.util.TimeZone.ListTimeZones" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AddAll" class="openJDKtests.util.ArrayList.AddAll" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Bug6533203" class="openJDKtests.util.ArrayList.Bug6533203" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToString" class="openJDKtests.util.AbstractCollection.ToString" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ReadObject" class="openJDKtests.util.Hashtable.ReadObject" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EqualsCast" class="openJDKtests.util.Hashtable.EqualsCast" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="HashCode" class="openJDKtests.util.Hashtable.HashCode" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IllegalLoadFactor" class="openJDKtests.util.Hashtable.IllegalLoadFactor" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ClearChanged" class="openJDKtests.util.Observable.ClearChanged" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ReverseOrder" class="openJDKtests.util.Collections.ReverseOrder" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NullComparator" class="openJDKtests.util.Collections.NullComparator" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CheckedSetBash" class="openJDKtests.util.Collections.CheckedSetBash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="T6433170" class="openJDKtests.util.Collections.T6433170" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CheckedMapBash" class="openJDKtests.util.Collections.CheckedMapBash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Swap" class="openJDKtests.util.Collections.Swap" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BigBinarySearch" class="openJDKtests.util.Collections.BigBinarySearch" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BinarySearchNullComparator" class="openJDKtests.util.Collections.BinarySearchNullComparator" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AsLifoQueue" class="openJDKtests.util.Collections.AsLifoQueue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Ser" class="openJDKtests.util.Collections.Ser" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ReverseOrder2" class="openJDKtests.util.Collections.ReverseOrder2" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="WrappedNull" class="openJDKtests.util.Collections.WrappedNull" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="FindSubList" class="openJDKtests.util.Collections.FindSubList" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="RotateEmpty" class="openJDKtests.util.Collections.RotateEmpty" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CheckedNull" class="openJDKtests.util.Collections.CheckedNull" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ViewSynch" class="openJDKtests.util.Collections.ViewSynch" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AddAll" class="openJDKtests.util.Collections.AddAll" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CheckedListBash" class="openJDKtests.util.Collections.CheckedListBash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NCopies" class="openJDKtests.util.Collections.NCopies" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="MinMax" class="openJDKtests.util.Collections.MinMax" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ReplaceAll" class="openJDKtests.util.Collections.ReplaceAll" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Rotate" class="openJDKtests.util.Collections.Rotate" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Enum" class="openJDKtests.util.Collections.Enum" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Disjoint" class="openJDKtests.util.Collections.Disjoint" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Frequency" class="openJDKtests.util.Collections.Frequency" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SetFromMap" class="openJDKtests.util.Collections.SetFromMap" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EmptyCollectionSerialization" class="openJDKtests.util.Collections.EmptyCollectionSerialization" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SimpleEntries" class="openJDKtests.util.AbstractMap.SimpleEntries" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AbstractMapClone" class="openJDKtests.util.AbstractMap.AbstractMapClone" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Equals" class="openJDKtests.util.AbstractMap.Equals" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToString" class="openJDKtests.util.AbstractMap.ToString" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ArrayObjectMethods" class="openJDKtests.util.Arrays.ArrayObjectMethods" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Big" class="openJDKtests.util.Arrays.Big" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Correct" class="openJDKtests.util.Arrays.Correct" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Fill" class="openJDKtests.util.Arrays.Fill" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CopyMethods" class="openJDKtests.util.Arrays.CopyMethods" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ZeroInitCap" class="openJDKtests.util.WeakHashMap.ZeroInitCap" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Iteration" class="openJDKtests.util.WeakHashMap.Iteration" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StockName" class="openJDKtests.util.Formattable.StockName" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToArray" class="openJDKtests.util.EnumMap.ToArray" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EnumMapBash" class="openJDKtests.util.EnumMap.EnumMapBash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ToArray" class="openJDKtests.util.IdentityHashMap.ToArray" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ResetPos" class="openJDKtests.util.StringTokenizer.ResetPos" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="FormFeed" class="openJDKtests.util.StringTokenizer.FormFeed" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Supplementary" class="openJDKtests.util.StringTokenizer.Supplementary" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ChorusLine" class="openJDKtests.util.Deque.ChorusLine" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SubMapClear" class="openJDKtests.util.TreeMap.SubMapClear" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SubMap" class="openJDKtests.util.TreeMap.SubMap" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NullAtEnd" class="openJDKtests.util.TreeMap.NullAtEnd" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="HeadTailTypeError" class="openJDKtests.util.TreeMap.HeadTailTypeError" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ContainsValue" class="openJDKtests.util.TreeMap.ContainsValue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="JumboRange" class="openJDKtests.util.EnumSet.JumboRange" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EnumSetBash" class="openJDKtests.util.EnumSet.EnumSetBash" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AllOf" class="openJDKtests.util.EnumSet.AllOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="InsertWrongType" class="openJDKtests.util.EnumSet.InsertWrongType" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="RetainAll" class="openJDKtests.util.EnumSet.RetainAll" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Range" class="openJDKtests.util.EnumSet.Range" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ComplementOf" class="openJDKtests.util.EnumSet.ComplementOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BogusEnumSet" class="openJDKtests.util.EnumSet.BogusEnumSet" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="EndOfDay" class="openJDKtests.util.SimpleTimeZone.EndOfDay" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="StickySize" class="openJDKtests.util.BitSet.StickySize" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="And" class="openJDKtests.util.BitSet.And" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="MemoryLeak" class="openJDKtests.util.BitSet.MemoryLeak" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="BSMethods" class="openJDKtests.util.BitSet.BSMethods" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AddAll" class="openJDKtests.util.AbstractSequentialList.AddAll" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SetValue" class="openJDKtests.util.HashMap.SetValue" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="KeySetRemove" class="openJDKtests.util.HashMap.KeySetRemove" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Get" class="openJDKtests.util.Map.Get" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NextBytes" class="openJDKtests.util.Random.NextBytes" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="NextIntPowerOfTwoMod" class="openJDKtests.util.Random.NextIntPowerOfTwoMod" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="DistinctSeeds" class="openJDKtests.util.Random.DistinctSeeds" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="UUIDTest" class="openJDKtests.util.UUID.UUIDTest" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Serial" class="openJDKtests.util.UUID.Serial" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Remove" class="openJDKtests.util.LinkedList.Remove" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="AddAll" class="openJDKtests.util.LinkedList.AddAll" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="Clone" class="openJDKtests.util.LinkedList.Clone" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ComodifiedRemove" class="openJDKtests.util.LinkedList.ComodifiedRemove" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="HasNextAfterException" class="openJDKtests.util.AbstractList.HasNextAfterException" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="FailFastIterator" class="openJDKtests.util.AbstractList.FailFastIterator" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="CopyInto" class="openJDKtests.util.Vector.CopyInto" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="IllegalConstructorArgs" class="openJDKtests.util.Vector.IllegalConstructorArgs" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="SyncLastIndexOf" class="openJDKtests.util.Vector.SyncLastIndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="ComodifiedRemoveAllElements" class="openJDKtests.util.Vector.ComodifiedRemoveAllElements" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
-<runCompareTest tag="LastIndexOf" class="openJDKtests.util.Vector.LastIndexOf" expecteddir="expected" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StackTraceSerialization" class="openJDKtests.lang.Throwable.StackTraceSerialization" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="LocalizedMessage" class="openJDKtests.lang.Throwable.LocalizedMessage" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="LegacyChainedExceptionSerialization" class="openJDKtests.lang.Throwable.LegacyChainedExceptionSerialization" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ChainedExceptions" class="openJDKtests.lang.Throwable.ChainedExceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NewChainedExceptions" class="openJDKtests.lang.Throwable.NewChainedExceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ParseFloat" class="openJDKtests.lang.Float.ParseFloat" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Extrema" class="openJDKtests.lang.Float.Extrema" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Constants" class="openJDKtests.lang.Float.Constants" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NaNInfinityParsing" class="openJDKtests.lang.Float.NaNInfinityParsing" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TestThreadId" class="openJDKtests.lang.ThreadLocal.TestThreadId" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="MemoryLeak" class="openJDKtests.lang.ThreadLocal.MemoryLeak" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Basic" class="openJDKtests.lang.ThreadLocal.Basic" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="InitialValue" class="openJDKtests.lang.ThreadLocal.InitialValue" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ThreadId" class="openJDKtests.lang.ThreadLocal.ThreadId" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TLRemoveTest" class="openJDKtests.lang.ThreadLocal.TLRemoveTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BitTwiddle" class="openJDKtests.lang.Integer.BitTwiddle" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ParsingTest" class="openJDKtests.lang.Integer.ParsingTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="GetInteger" class="openJDKtests.lang.Integer.GetInteger" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Decode" class="openJDKtests.lang.Integer.Decode" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ByteSwap" class="openJDKtests.lang.Short.ByteSwap" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Decode" class="openJDKtests.lang.Short.Decode" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="GetLong" class="openJDKtests.lang.Long.GetLong" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BitTwiddle" class="openJDKtests.lang.Long.BitTwiddle" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ParsingTest" class="openJDKtests.lang.Long.ParsingTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Decode" class="openJDKtests.lang.Long.Decode" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Expm1Tests" class="openJDKtests.lang.StrictMath.Expm1Tests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Tests" class="openJDKtests.lang.StrictMath.Tests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CubeRootTests" class="openJDKtests.lang.StrictMath.CubeRootTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Log10Tests" class="openJDKtests.lang.StrictMath.Log10Tests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Log1pTests" class="openJDKtests.lang.StrictMath.Log1pTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="HyperbolicTests" class="openJDKtests.lang.StrictMath.HyperbolicTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="HypotTests" class="openJDKtests.lang.StrictMath.HypotTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ExceedMaxDim" class="openJDKtests.lang.reflect.Array.ExceedMaxDim" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TestParameterAnnotations" class="openJDKtests.lang.reflect.Constructor.TestParameterAnnotations" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Set" class="openJDKtests.lang.reflect.Field.Set" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StaticFieldTest" class="openJDKtests.lang.reflect.Field.eightsixfour.StaticFieldTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="toStringTest" class="openJDKtests.lang.reflect.Modifier.toStringTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ArrayAssignment" class="openJDKtests.lang.reflect.Assignment.ArrayAssignment" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="exceptionCauseTest" class="openJDKtests.lang.reflect.Generics.exceptionCauseTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="getAnnotationTest" class="openJDKtests.lang.reflect.Generics.getAnnotationTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Probe" class="openJDKtests.lang.reflect.Generics.Probe" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StringsAndBounds" class="openJDKtests.lang.reflect.Generics.StringsAndBounds" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TestC1" class="openJDKtests.lang.reflect.Generics.TestC1" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TestC2" class="openJDKtests.lang.reflect.Generics.TestC2" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TestN1" class="openJDKtests.lang.reflect.Generics.TestN1" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="TestParameterizedType" class="openJDKtests.lang.reflect.Generics.TestParameterizedType" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Boxing" class="openJDKtests.lang.reflect.Proxy.Boxing" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CharType" class="openJDKtests.lang.reflect.Proxy.CharType" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ClassRestrictions" class="openJDKtests.lang.reflect.Proxy.ClassRestrictions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Test" class="openJDKtests.lang.reflect.Proxy.returnTypes.Test" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="InheritedInterfaceMethods" class="openJDKtests.lang.reflect.Method.InheritedInterfaceMethods" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ErrorInInvoke" class="openJDKtests.lang.reflect.Method.invoke.ErrorInInvoke" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IllegalAccessInInvoke" class="openJDKtests.lang.reflect.Method.invoke.IllegalAccessInInvoke" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Decode" class="openJDKtests.lang.Byte.Decode" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="PublicConstructor" class="openJDKtests.lang.StackTraceElement.PublicConstructor" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Cause" class="openJDKtests.lang.AssertionError.Cause" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Cast" class="openJDKtests.lang.Class.Cast" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IsSynthetic" class="openJDKtests.lang.Class.IsSynthetic" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IsAnnotationType" class="openJDKtests.lang.Class.IsAnnotationType" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Sanity" class="openJDKtests.lang.Class.getClasses.Sanity" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EnclosingConstructorTests" class="openJDKtests.lang.Class.getEnclosingConstructor.EnclosingConstructorTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getMethod.Exceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NullInParamList" class="openJDKtests.lang.Class.getMethod.NullInParamList" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ForInnerClass" class="openJDKtests.lang.Class.getModifiers.ForInnerClass" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ForStaticInnerClass" class="openJDKtests.lang.Class.getModifiers.ForStaticInnerClass" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ResolveFrom" class="openJDKtests.lang.Class.getModifiers.ResolveFrom" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StripACC_SUPER" class="openJDKtests.lang.Class.getModifiers.StripACC_SUPER" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Sanity" class="openJDKtests.lang.Class.getDeclaredClasses.Sanity" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EnclosingMethodTests" class="openJDKtests.lang.Class.getEnclosingMethod.EnclosingMethodTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Sanity" class="openJDKtests.lang.Class.getDeclaringClass.Sanity" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getDeclaredMethod.Exceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getDeclaredField.Exceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NonPublicStaticInitializer" class="openJDKtests.lang.Class.getMethods.NonPublicStaticInitializer" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StarInheritance" class="openJDKtests.lang.Class.getMethods.StarInheritance" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Exceptions" class="openJDKtests.lang.Class.getField.Exceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Replace" class="openJDKtests.lang.StringBuffer.Replace" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AppendCharSequence" class="openJDKtests.lang.StringBuffer.AppendCharSequence" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="GetCharsSrcEndLarger" class="openJDKtests.lang.StringBuffer.GetCharsSrcEndLarger" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Substring" class="openJDKtests.lang.StringBuffer.Substring" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="InsertNullString" class="openJDKtests.lang.StringBuffer.InsertNullString" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Exceptions" class="openJDKtests.lang.StringBuffer.Exceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SetLength" class="openJDKtests.lang.StringBuffer.SetLength" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AppendSB" class="openJDKtests.lang.StringBuffer.AppendSB" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="InsertMaxValue" class="openJDKtests.lang.StringBuffer.InsertMaxValue" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SBBasher" class="openJDKtests.lang.StringBuffer.SBBasher" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Supplementary" class="openJDKtests.lang.StringBuffer.Supplementary" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IndexOf" class="openJDKtests.lang.StringBuffer.IndexOf" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="GetCharsOverLength" class="openJDKtests.lang.StringBuffer.GetCharsOverLength" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Trim" class="openJDKtests.lang.StringBuffer.Trim" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Extrema" class="openJDKtests.lang.Double.Extrema" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Constants" class="openJDKtests.lang.Double.Constants" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NaNInfinityParsing" class="openJDKtests.lang.Double.NaNInfinityParsing" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NonCharacterMapping" class="openJDKtests.lang.String.NonCharacterMapping" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CaseConvertSameInstance" class="openJDKtests.lang.String.CaseConvertSameInstance" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SBConstructor" class="openJDKtests.lang.String.SBConstructor" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ICCBasher" class="openJDKtests.lang.String.ICCBasher" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToLowerCase" class="openJDKtests.lang.String.ToLowerCase" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IsEmpty" class="openJDKtests.lang.String.IsEmpty" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToUpperCase" class="openJDKtests.lang.String.ToUpperCase" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Regex" class="openJDKtests.lang.String.Regex" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Encodings" class="openJDKtests.lang.String.Encodings" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Supplementary" class="openJDKtests.lang.String.Supplementary" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CompareIC" class="openJDKtests.lang.String.CompareIC" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="RegionMatches" class="openJDKtests.lang.String.RegionMatches" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Split" class="openJDKtests.lang.String.Split" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ContentEquals" class="openJDKtests.lang.String.ContentEquals" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IndexOfEmptyInEmpty" class="openJDKtests.lang.String.IndexOfEmptyInEmpty" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NullQueue" class="openJDKtests.lang.ref.NullQueue" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Bash" class="openJDKtests.lang.ref.SoftReference.Bash" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EnqueueNullRef" class="openJDKtests.lang.ref.EnqueueNullRef" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Insert" class="openJDKtests.lang.StringBuilder.Insert" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Exceptions" class="openJDKtests.lang.StringBuilder.Exceptions" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Supplementary" class="openJDKtests.lang.StringBuilder.Supplementary" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ITLRemoveTest" class="openJDKtests.lang.InheritableThreadLocal.ITLRemoveTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Basic" class="openJDKtests.lang.InheritableThreadLocal.Basic" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ParseBoolean" class="openJDKtests.lang.Boolean.ParseBoolean" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Factory" class="openJDKtests.lang.Boolean.Factory" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="MakeBooleanComparable" class="openJDKtests.lang.Boolean.MakeBooleanComparable" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="GetBoolean" class="openJDKtests.lang.Boolean.GetBoolean" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SetMaxPriority" class="openJDKtests.lang.ThreadGroup.SetMaxPriority" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Stop" class="openJDKtests.lang.ThreadGroup.Stop" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Daemon" class="openJDKtests.lang.ThreadGroup.Daemon" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Basic" class="openJDKtests.lang.Appendable.Basic" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="RoundingModeTests" class="openJDKtests.math.RoundingMode.RoundingModeTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NegateTests" class="openJDKtests.math.BigDecimal.NegateTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StrippingZerosTest" class="openJDKtests.math.BigDecimal.StrippingZerosTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="DivideTests" class="openJDKtests.math.BigDecimal.DivideTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ZeroScalingTests" class="openJDKtests.math.BigDecimal.ZeroScalingTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AddTests" class="openJDKtests.math.BigDecimal.AddTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="RoundingTests" class="openJDKtests.math.BigDecimal.RoundingTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IntegralDivisionTests" class="openJDKtests.math.BigDecimal.IntegralDivisionTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CompareToTests" class="openJDKtests.math.BigDecimal.CompareToTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="MultiplyTests" class="openJDKtests.math.BigDecimal.MultiplyTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Constructor" class="openJDKtests.math.BigDecimal.Constructor" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ScaleByPowerOfTenTests" class="openJDKtests.math.BigDecimal.ScaleByPowerOfTenTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SerializationTests" class="openJDKtests.math.BigDecimal.SerializationTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="PowTests" class="openJDKtests.math.BigDecimal.PowTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="FloatDoubleValueTests" class="openJDKtests.math.BigDecimal.FloatDoubleValueTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToPlainStringTests" class="openJDKtests.math.BigDecimal.ToPlainStringTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ProbablePrime" class="openJDKtests.math.BigInteger.ProbablePrime" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ModPow" class="openJDKtests.math.BigInteger.ModPow" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="OperatorNpeTests" class="openJDKtests.math.BigInteger.OperatorNpeTests" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BigIntegerTest" class="openJDKtests.math.BigInteger.BigIntegerTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="UnicodeConstructor" class="openJDKtests.math.BigInteger.UnicodeConstructor" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Constructors" class="openJDKtests.util.IllegalFormatException.Constructors" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Basic" class="openJDKtests.util.LinkedHashMap.Basic" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Cache" class="openJDKtests.util.LinkedHashMap.Cache" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EmptyMapIterator" class="openJDKtests.util.LinkedHashMap.EmptyMapIterator" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Bug4512215" class="openJDKtests.util.Currency.Bug4512215" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IteratorAtEnd" class="openJDKtests.util.Collection.IteratorAtEnd" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BiggernYours" class="openJDKtests.util.Collection.BiggernYours" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="RemoveContains" class="openJDKtests.util.PriorityQueue.RemoveContains" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ForgetMeNot" class="openJDKtests.util.PriorityQueue.ForgetMeNot" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="PriorityQueueSort" class="openJDKtests.util.PriorityQueue.PriorityQueueSort" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Basic" class="openJDKtests.util.LinkedHashSet.Basic" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ListTimeZones" class="openJDKtests.util.TimeZone.ListTimeZones" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AddAll" class="openJDKtests.util.ArrayList.AddAll" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Bug6533203" class="openJDKtests.util.ArrayList.Bug6533203" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToString" class="openJDKtests.util.AbstractCollection.ToString" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ReadObject" class="openJDKtests.util.Hashtable.ReadObject" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EqualsCast" class="openJDKtests.util.Hashtable.EqualsCast" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="HashCode" class="openJDKtests.util.Hashtable.HashCode" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IllegalLoadFactor" class="openJDKtests.util.Hashtable.IllegalLoadFactor" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ClearChanged" class="openJDKtests.util.Observable.ClearChanged" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ReverseOrder" class="openJDKtests.util.Collections.ReverseOrder" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NullComparator" class="openJDKtests.util.Collections.NullComparator" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CheckedSetBash" class="openJDKtests.util.Collections.CheckedSetBash" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="T6433170" class="openJDKtests.util.Collections.T6433170" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CheckedMapBash" class="openJDKtests.util.Collections.CheckedMapBash" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Swap" class="openJDKtests.util.Collections.Swap" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BigBinarySearch" class="openJDKtests.util.Collections.BigBinarySearch" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BinarySearchNullComparator" class="openJDKtests.util.Collections.BinarySearchNullComparator" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AsLifoQueue" class="openJDKtests.util.Collections.AsLifoQueue" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Ser" class="openJDKtests.util.Collections.Ser" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ReverseOrder2" class="openJDKtests.util.Collections.ReverseOrder2" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="WrappedNull" class="openJDKtests.util.Collections.WrappedNull" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="FindSubList" class="openJDKtests.util.Collections.FindSubList" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="RotateEmpty" class="openJDKtests.util.Collections.RotateEmpty" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CheckedNull" class="openJDKtests.util.Collections.CheckedNull" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ViewSynch" class="openJDKtests.util.Collections.ViewSynch" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AddAll" class="openJDKtests.util.Collections.AddAll" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CheckedListBash" class="openJDKtests.util.Collections.CheckedListBash" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NCopies" class="openJDKtests.util.Collections.NCopies" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="MinMax" class="openJDKtests.util.Collections.MinMax" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ReplaceAll" class="openJDKtests.util.Collections.ReplaceAll" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Rotate" class="openJDKtests.util.Collections.Rotate" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Enum" class="openJDKtests.util.Collections.Enum" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Disjoint" class="openJDKtests.util.Collections.Disjoint" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Frequency" class="openJDKtests.util.Collections.Frequency" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SetFromMap" class="openJDKtests.util.Collections.SetFromMap" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EmptyCollectionSerialization" class="openJDKtests.util.Collections.EmptyCollectionSerialization" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SimpleEntries" class="openJDKtests.util.AbstractMap.SimpleEntries" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AbstractMapClone" class="openJDKtests.util.AbstractMap.AbstractMapClone" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Equals" class="openJDKtests.util.AbstractMap.Equals" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToString" class="openJDKtests.util.AbstractMap.ToString" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ArrayObjectMethods" class="openJDKtests.util.Arrays.ArrayObjectMethods" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Big" class="openJDKtests.util.Arrays.Big" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Correct" class="openJDKtests.util.Arrays.Correct" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Fill" class="openJDKtests.util.Arrays.Fill" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CopyMethods" class="openJDKtests.util.Arrays.CopyMethods" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ZeroInitCap" class="openJDKtests.util.WeakHashMap.ZeroInitCap" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Iteration" class="openJDKtests.util.WeakHashMap.Iteration" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StockName" class="openJDKtests.util.Formattable.StockName" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToArray" class="openJDKtests.util.EnumMap.ToArray" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EnumMapBash" class="openJDKtests.util.EnumMap.EnumMapBash" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ToArray" class="openJDKtests.util.IdentityHashMap.ToArray" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ResetPos" class="openJDKtests.util.StringTokenizer.ResetPos" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="FormFeed" class="openJDKtests.util.StringTokenizer.FormFeed" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Supplementary" class="openJDKtests.util.StringTokenizer.Supplementary" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ChorusLine" class="openJDKtests.util.Deque.ChorusLine" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SubMapClear" class="openJDKtests.util.TreeMap.SubMapClear" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SubMap" class="openJDKtests.util.TreeMap.SubMap" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NullAtEnd" class="openJDKtests.util.TreeMap.NullAtEnd" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="HeadTailTypeError" class="openJDKtests.util.TreeMap.HeadTailTypeError" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ContainsValue" class="openJDKtests.util.TreeMap.ContainsValue" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="JumboRange" class="openJDKtests.util.EnumSet.JumboRange" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EnumSetBash" class="openJDKtests.util.EnumSet.EnumSetBash" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AllOf" class="openJDKtests.util.EnumSet.AllOf" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="InsertWrongType" class="openJDKtests.util.EnumSet.InsertWrongType" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="RetainAll" class="openJDKtests.util.EnumSet.RetainAll" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Range" class="openJDKtests.util.EnumSet.Range" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ComplementOf" class="openJDKtests.util.EnumSet.ComplementOf" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BogusEnumSet" class="openJDKtests.util.EnumSet.BogusEnumSet" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="EndOfDay" class="openJDKtests.util.SimpleTimeZone.EndOfDay" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="StickySize" class="openJDKtests.util.BitSet.StickySize" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="And" class="openJDKtests.util.BitSet.And" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="MemoryLeak" class="openJDKtests.util.BitSet.MemoryLeak" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="BSMethods" class="openJDKtests.util.BitSet.BSMethods" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AddAll" class="openJDKtests.util.AbstractSequentialList.AddAll" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SetValue" class="openJDKtests.util.HashMap.SetValue" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="KeySetRemove" class="openJDKtests.util.HashMap.KeySetRemove" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Get" class="openJDKtests.util.Map.Get" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NextBytes" class="openJDKtests.util.Random.NextBytes" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="NextIntPowerOfTwoMod" class="openJDKtests.util.Random.NextIntPowerOfTwoMod" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="DistinctSeeds" class="openJDKtests.util.Random.DistinctSeeds" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="UUIDTest" class="openJDKtests.util.UUID.UUIDTest" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Serial" class="openJDKtests.util.UUID.Serial" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Remove" class="openJDKtests.util.LinkedList.Remove" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="AddAll" class="openJDKtests.util.LinkedList.AddAll" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="Clone" class="openJDKtests.util.LinkedList.Clone" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ComodifiedRemove" class="openJDKtests.util.LinkedList.ComodifiedRemove" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="HasNextAfterException" class="openJDKtests.util.AbstractList.HasNextAfterException" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="FailFastIterator" class="openJDKtests.util.AbstractList.FailFastIterator" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="CopyInto" class="openJDKtests.util.Vector.CopyInto" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="IllegalConstructorArgs" class="openJDKtests.util.Vector.IllegalConstructorArgs" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="SyncLastIndexOf" class="openJDKtests.util.Vector.SyncLastIndexOf" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="ComodifiedRemoveAllElements" class="openJDKtests.util.Vector.ComodifiedRemoveAllElements" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
+<runCompareTest tag="LastIndexOf" class="openJDKtests.util.Vector.LastIndexOf" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <finishResults/>
 
 </target>
