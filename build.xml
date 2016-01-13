@@ -322,8 +322,6 @@
     <ant antfile="build/components/junit.xml" target="ensure"/>
     <ant antfile="build/components/hamcrest.xml" target="ensure"/>
     <ant antfile="build/components/mockito.xml" target="ensure"/>
-    <ant antfile="build/components/openjdk.xml" target="ensure"/>
-    <ant antfile="build/components/dacapo.xml" target="ensure"/>
     <property file="${components.file}"/>
   </target>
 
