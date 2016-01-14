@@ -13,43 +13,43 @@
 
 <project name="openjdk_testing" default="test" basedir=".">
 
-	<import file="../../../build/tests.xml" />
-	<import file="${jikesrvm.dir}/build/components/openjdk-tests.xml"/>
-	<property name="main.java" location="expected"/>
-	<property name="build.classes" location="${build.tests.dir}/classes"/>
-	<property name="test.class.path" value="${build.classes}"/>
-	<property name="openjdk.jar.dir" value="${openjdk.dir}"/>
-	<property name="openjdk.jar.filename" value="OpenJDKTests_openjdk6.jar"/>
-	<property name="expected.dir" value="expected/openJDKtests"/>
+  <import file="../../../build/tests.xml" />
+  <import file="${jikesrvm.dir}/build/components/openjdk-tests.xml"/>
+  <property name="main.java" location="expected"/>
+  <property name="build.classes" location="${build.tests.dir}/classes"/>
+  <property name="test.class.path" value="${build.classes}"/>
+  <property name="openjdk.jar.dir" value="${openjdk.dir}"/>
+  <property name="openjdk.jar.filename" value="OpenJDKTests_openjdk6.jar"/>
+  <property name="expected.dir" value="expected/openJDKtests"/>
 
   <import file="../../../build/tests.xml"/>
   <ant antfile="../../../build/components/openjdk-tests.xml" target="ensure" inheritall="false" inheritrefs="false"/>
   <property file="${components.file}"/>
 
 
-	<macrodef name="hotspotTest" description="runs class on Hotspot and places output in `expected` folder">
-		<attribute name="classname"/>	<!-- the name of the class, without packages -->
-		<attribute name="package"/>	<!-- the fully qualified classpath, excluding the classname -->
-		<attribute name="outdir"/>	<!-- where the .expected file will be created; should correspond to @{package} -->
-		<sequential>
-		<!--	<echo message="Running @{package}.@{classname} on Hotspot"/>	-->
-			<mkdir dir="@{outdir}"/>
-			<java classname="@{package}.@{classname}"
-				output="@{outdir}/@{classname}.expected"
-				fork="true">
-				<classpath>
-					<pathelement location="${openjdk.jar.dir}/${openjdk.jar.filename}"/>	
-				</classpath>
-			</java>
-		</sequential>
-	</macrodef>
+  <macrodef name="hotspotTest" description="runs class on Hotspot and places output in `expected` folder">
+    <attribute name="classname"/>  <!-- the name of the class, without packages -->
+    <attribute name="package"/>  <!-- the fully qualified classpath, excluding the classname -->
+    <attribute name="outdir"/>  <!-- where the .expected file will be created; should correspond to @{package} -->
+    <sequential>
+    <!--  <echo message="Running @{package}.@{classname} on Hotspot"/>  -->
+      <mkdir dir="@{outdir}"/>
+      <java classname="@{package}.@{classname}"
+        output="@{outdir}/@{classname}.expected"
+        fork="true">
+        <classpath>
+          <pathelement location="${openjdk.jar.dir}/${openjdk.jar.filename}"/>  
+        </classpath>
+      </java>
+    </sequential>
+  </macrodef>
 
-		
+    
 
 
 <target name="test" depends="init">
 
-	<!-- running the tests with HotSpot -->
+  <!-- running the tests with HotSpot -->
 
 <hotspotTest classname="StackTraceSerialization" package="openJDKtests.lang.Throwable" outdir="${expected.dir}/lang/Throwable"/>
 <hotspotTest classname="LocalizedMessage" package="openJDKtests.lang.Throwable" outdir="${expected.dir}/lang/Throwable"/>
@@ -301,9 +301,9 @@
 <hotspotTest classname="LastIndexOf" package="openJDKtests.util.Vector" outdir="${expected.dir}/util/Vector"/>
 
 
-	<!-- Comparison -->
+  <!-- Comparison -->
 
-	<startResults/>
+  <startResults/>
 <runCompareTest tag="StackTraceSerialization" class="openJDKtests.lang.Throwable.StackTraceSerialization" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="LocalizedMessage" class="openJDKtests.lang.Throwable.LocalizedMessage" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
 <runCompareTest tag="LegacyChainedExceptionSerialization" class="openJDKtests.lang.Throwable.LegacyChainedExceptionSerialization" classpath="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
