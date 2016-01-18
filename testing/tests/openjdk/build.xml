@@ -22,7 +22,6 @@
   <property name="openjdk.jar.filename" value="OpenJDKTests_openjdk6.jar"/>
   <property name="expected.dir" value="expected/openJDKtests"/>
 
-  <import file="../../../build/tests.xml"/>
   <ant antfile="../../../build/components/openjdk-tests.xml" target="ensure" inheritall="false" inheritrefs="false"/>
   <property file="${components.file}"/>
 
