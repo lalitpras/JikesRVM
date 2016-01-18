@@ -37,13 +37,11 @@
         output="@{outdir}/@{classname}.expected"
         fork="true">
         <classpath>
-          <pathelement location="${openjdk.jar.dir}/${openjdk.jar.filename}"/>  
+          <pathelement location="${openjdk.jar.dir}/${openjdk.jar.filename}"/>
         </classpath>
       </java>
     </sequential>
   </macrodef>
-
-    
 
 
 <target name="test" depends="init">
